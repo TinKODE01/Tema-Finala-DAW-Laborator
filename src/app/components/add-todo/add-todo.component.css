@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+}
+
+.input {
+  flex: 5;
+  padding: 6px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form input[type="submit"] {
+  flex: 2;
+}

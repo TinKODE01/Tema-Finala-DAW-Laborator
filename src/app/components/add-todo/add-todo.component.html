@@ -1,0 +1,4 @@
+<form [formGroup]="form" class="form" (ngSubmit)="submit()">
+    <input matInput class="input" formControlName="title"  autocomplete="off">
+    <input [disabled]="form.get('title')?.value === '' ? 'disabled' : null" type="submit" value="Submit" class="btn">
+</form>
